@@ -26,7 +26,7 @@ $(document).on("pagecreate", "#page1", function () {
 	});
 	
 });
-
+document.getElementById("freq").innerHTML = "write me to the screen"
 
 function startSensor() {
 	watchID = navigator.accelerometer.watchAcceleration( accelerometerSuccess, accelerometerError, accelerometerOptions);
